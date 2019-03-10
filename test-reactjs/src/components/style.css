@@ -1,0 +1,169 @@
+@media only screen and (max-width: 480px){
+  .desktop {
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 481px){
+  .mobile {
+      display: none;
+  }
+}
+
+.checkoutScreen {
+	background: #000000;
+  	color: #ffffff;
+  	max-width: 600px;
+  	margin: 0 auto;
+}
+
+.marigoldColor {
+	color: #ffcc00;
+}
+
+.fontSize14px {
+	font-size: 14px;
+}
+
+.padding20px {
+	padding: 20px;
+}
+
+.paddingTop40px {
+	padding-top: 40px;
+}
+
+.styleDropDown {
+	background: #000000;
+  	width: 100%;
+  	border: 2px solid #ffcc00;
+  	color: #ffcc00;
+  	border-radius: 5px;
+  	padding: 10px;
+}
+
+.styleButtonCheckout {
+	border: none;
+  	background: #000000;
+}
+
+.styleButtonBagNone {
+	border: none;
+  	background: none;
+}
+
+.marginTop10px {
+	margin-top: 10px;
+}
+
+.marginTop20px {
+	margin-top: 20px;
+}
+
+.marginTop80px {
+	margin-top: 80px;
+}
+
+.styleButtonBag {
+	width: 100%;
+	border: 1px solid #000000;
+	background: #ffffff;
+	height: 34px;
+	border-radius: 5px;
+}
+
+.styleButtonCheckout2 {
+	width: 100%;
+	border: 1px solid #ffffff;
+	background: #000000;
+	height: 34px;
+	border-radius: 5px;
+}
+
+.styleButtonCheckout3 {
+	width: 100%;
+	height: 40px;
+	border-radius: 30px;
+	background: #ffffff;
+	color: #000000;
+}
+
+.styleButtonCheckout4 {
+	width: 100%;
+	height: 40px;
+	border-radius: 30px;
+	background: #ffcc00;
+	color: #000000;
+}
+
+.textAlignRight {
+	text-align: right;
+}
+
+.textAlignCenter {
+	text-align: center;
+}
+
+.displayInlineBlock {
+	display: inline-block;
+}
+
+.floatRight {
+	float: right;
+}
+
+.aWhite {
+	color: #ffffff;
+}
+
+.aMarigold {
+	color: #ffcc00;
+}
+
+.aBlack {
+	color: #000000;
+}
+
+.bgBlack {
+	background: #000000;
+}
+
+.menuBag {
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	padding: 10px; 
+	border-right: 2px solid #ffffff;
+}
+
+.relative {
+	position: relative;
+  	width: 100%;
+  	height: 230px;
+  	/*background: #efeff4;*/
+  	background: url("https://ungthuvietnam.com/wp-content/uploads/2017/04/banh-ngot-gay-ung-thu.jpg");
+  	background-position: center;
+  	border-radius: 10px;
+  	box-shadow: 3px 3px #e5e5ea;
+}
+
+.absolute {
+	position: absolute;
+  	bottom: 0px;
+  	right: 0;
+  	width: 100%;
+  	height: 80px;
+  	border-radius: 0px 0px 10px 10px;
+  	background: rgba(255, 255, 250, 0.6);
+  	padding: 10px;
+}
+
+.fixButton {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 30%;
+	display: block;
+	height: 40px;
+	border-radius: 30px;
+}
